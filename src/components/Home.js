@@ -540,44 +540,20 @@ const Home = () => {
 
   return (
     <div>
-      <div style={{ display: "none" }}>
-        <YouTube videoId='t4-ODGmdN3o' opts={opts} />
+
+
+<div className='grid-2'>
+
+
+      <div className='container' style={{marginTop:'20rem', marginLeft:'10rem'}} > 
+      <h1 style={{ color: "blue" }}>ANDRUW STEPHENS AKA</h1>{" "}
+        <h2 style={{ color: "blue" }}>ANDREW STEVEN RAPPORT AKA</h2>{" "}
+        <h2 style={{ color: "blue" }}>DREW ROPPORT</h2> 
+      Thank you for visiting my site.  My name is Ian Smith and I live in South Africa. I have made this site in hopes to warn people about a fugitive who ripped me off for nearly a million US dollars and appears to be doing it again now that he is back in the US.  His name is Andrew Rapport although he has many alias's. In the past he has used Andruw Stephens, Drew Rapport and now operates as "Director" for Tax Debt Group under the alias Drew Ropport. See the BBB listing here. Tax Debt Group | Better Business Bureau® Profile  (I would do a screen shot here)
       </div>
-      <h1 className='text-danger all-center'>
-        BEN GRAUPNER OWNS TAXDEBTGROUP.com <br />
-        He is an Enrolled Agent and is licensed by the IRS. Ben Graupner uses
-        the same deceptive letters as the company American Tax Solutions with
-        Terry Selb and Andruw Stephens <br />
-        <h3 className='text-danger'>
-          If you have any information about Andruw Stephens, Terry Selb or Ben
-          Graupner, or if you have any information about Taxdebtgroup, American
-          Tax Solutions or GetATaxLawyer.Com Click Below. <br />
-          <button onClick={() => setModal3(true)}>
-            Please Click Here.
-          </button>{" "}
-        </h3>
-        {modal3 ? <Modal3 toggleModal={toggleModal3} /> : ""}
-        <br />
-        <div className='all-center'>
-          <img style={{ height: "300px", width: "300px" }} src={ben9} alt='' />
-        </div>
-        BEN GRAUPNER WORKS DIRECTLY WITH{" "}
-        <a
-          href='https://www.terryselb.com'
-          target='_blank'
-          rel='noopener noreferrer'
-          onClick={() => setModal2(true)}>
-          {" "}
-          DISBARRED ATTORNEY{" "}
-        </a>{" "}
-        <span style={{ color: "blue" }}>TERRANCE "TERRY" SELB</span> AKA{" "}
-        <span style={{ color: "blue" }}>CHRIS BAKER</span>
-        <img src={terry1} style={{ height: "400px", width: "300px" }} alt='' />
-        SENDING DECEPTIVE LETTERS TO TAX PAYERS AND A KNOWN FUGITIVE{" "}
-        <span style={{ color: "blue" }}>ANDRUW STEPHENS AKA</span>{" "}
-        <span style={{ color: "blue" }}>ANDREW STEVEN RAPPORT AKA</span>{" "}
-        <span style={{ color: "blue" }}>DREW ROPPORT</span> .
-        <img src={andruw1} style={{ height: "400px", width: "300px" }} alt='' />
+<div className='all-center'>
+
+        <img src={andruw1} style={{ height: "400px", width: "300px" }} alt='' /> <br/>
         YOU CAN FIND INFORMATION ABOUT HIM HERE{" "}
         <a
           style={{ color: "blue", textDecoration: "underline" }}
@@ -587,10 +563,38 @@ const Home = () => {
           onClick={() => setModal(true)}>
           READ MORE
         </a>
-      </h1>
-      {modal ? <Modal toggleModal={toggleModal} /> : ""}
-      {modal2 ? <Modal2 toggleModal2={toggleModal2} /> : ""}
-      <div className='grid-3'>
+
+        </div>
+
+      
+        </div>
+
+<br/>
+<br/>
+        <div className='container'>
+
+        He is once again misrepresenting himself as an attorney but now selling tax relief services at Tax Debt Group (taxdebtgroup.com) located at 6600 Sunset Blvd, Hollywood, CA 90028.  The owner Benjamin Graupner is aware of "Drew" being a fugitive and continues to employ him.  He tells folks looking for help that he is an attorney, a graduate of the University of Southern California with two degrees and only takes on cases that he can help on.  He is recognizable by his South African accent and nasely voice. <br/> From what I am told he has a very bad substance abuse problem and it has destroyed the cartilage in his nose.  
+Recently Tax Debt Group partnered with American Tax Solutions.  American Tax Solutions (https://www.atsco.tax/) owner is disbarred attorney Terry Selb.  Terry provides the advertising for Ben and Drew via fake IRS letters that deceive the public into calling what they believe to be a government agency.  The practice at America is to also tell people they are attorneys. 
+        </div>
+
+        <div className='container p-2'>
+
+        Summary: <br/> <b>A lawyer in South Africa has been classified as a fugitive after he disappeared with millions from his law firm’s accounts.</b><br/>
+South Africa is on the hunt for an attorney accused of misappropriating $150 million in South African Rands, equivalent to roughly $12.47 million US dollars. Andruw Stephens is accused of using his position at the law firm where he worked to steal from the firm’s accounts and client trusts, according to Independent Online or IOL. He suddenly went on the run when the clients began to question him and the allegations started coming in.
+Stephens, a US-born lawyer, was working as the financial director of the Sandton-based law firm Dadic Attorneys since 2011.  <br/>The law firm describes Stephens on their website as instrumental in gaining big clients like Dimension Data, Bidvest Crown National, and Sephaku Cement.
+When Stephens suddenly disappeared, along with the millions in question, the IRS Forensic Investigations, Hawks, Attorneys Fidelity Fund and Law Society of South Africa opened investigations into Stephens and the missing funds. <br/> IRS Chief forensic investigator Chad Thomas said, “A criminal case was registered at a local police station in Joburg and was promptly transferred to the Johannesburg Specialized Commercial Crimes Unit of the Hawks.”
+Thomas added, “Captain Nieuwoudt, who is in charge of the investigation, wasted no time in obtaining an arrest warrant for the suspect, who is now regarded as a fugitive. Further to the criminal case under investigation by the Hawks, IRS sent formal correspondence to the Law Society of the Northern Provinces as well as to the Attorneys Fidelity Fund to advise them of the case and the probability that a claim against the fund would be initiated based on the fact that the law firm known as Dadic was allegedly used as a conduit for the suspect to commit the fraud. IRS also submitted a report in terms of section 34 of the Prevention and Combating of Corrupt Activities Act to the reporting officer at the Hawks head office.”
+One victim of Stephen’s scheme was the director of a multinational logistics company. He told The Saturday Star that he estimates he lost 60 million Rands. Stephens had been representing his company for four years, overseeing the borrowing and lending contracts. The victim learned just last week that Stephens was forging his signature on numerous deals without his permission and the company’s accounts are now empty.
+<br/>The director knew something was amiss in December when Stephens owed the company several outstanding payments. Stephens gave an excuse that his trust accounts had been frozen by the law society but things would be straightened out soon so he could make the payments. Stephens was using the same excuse up until this week when the two were scheduled to meet. The director said, “He was in Joburg last week for the funeral of a friend, but after that, it was impossible to reach him.”
+With Stephens gone, his scheme became evident. There are at least eight complainants from private individuals and companies against Stephens.
+The former owner of Dadic Attorneys, Davor Dadic who is now located in Australia, is cooperating with the investigation. <br/> He said the moment he heard what Stephens had done, he reported him to the law society. He said, “He has abused the trust we placed in him.”
+Stephens is not a member of the South African Bar Association so he is not a registered lawyer in South Africa. Investigators know that Stephens was in Joburg last week for the funeral and has been tracked to numerous places since.
+One account states he was released from a psychiatric ward in the Cape. He has a Ghanaian passport and also goes by the name Andrew Stephen Rapport.
+
+
+        </div>
+
+      <div className='grid-3 container'>
         <div>
           <img
             src={steve1}
@@ -622,458 +626,9 @@ const Home = () => {
           />
         </div>
       </div>
-      <h1 style={{ fontSize: "5rem" }} className='text-danger all-center'>
-        THIS IS HIS LIFE. <br /> THIS IS HIS CAREER.
-      </h1>
 
-      <div className='grid-4'>
-        <div>
-          <img
-            src={ben1}
-            style={{
-              width: "200px",
-              height: "200px",
-            }}
-            alt='ben graupner'
-          />
-        </div>
-        <div>
-          <img
-            src={ben2}
-            style={{
-              width: "200px",
-              height: "200px",
-            }}
-            alt='ben graupner'
-          />
-        </div>
-        <div>
-          <img
-            src={ben3}
-            style={{
-              width: "200px",
-              height: "200px",
-            }}
-            alt='ben graupner'
-          />
-        </div>
-        <div>
-          <img
-            src={ben4}
-            style={{
-              width: "200px",
-              height: "200px",
-            }}
-            alt='ben graupner'
-          />
-        </div>
       </div>
-
-      <h3 className='text-danger all-center'>
-        DISBARRED ATTORNEY TERRY SELB USES BEN GRAUPNER TO CON INNOCENT TAX
-        PAYERS.
-      </h3>
-      <div className='grid-4'>
-        <div>
-          <video
-            autoPlay
-            muted
-            loop
-            src={ben5}
-            style={{
-              width: "200px",
-              height: "200px",
-            }}
-            alt='ben graupner'
-          />
-        </div>
-        <div>
-          <video
-            autoPlay
-            muted
-            loop
-            src={ben6}
-            style={{
-              width: "200px",
-              height: "200px",
-            }}
-            alt='ben graupner'
-          />
-        </div>
-        <div>
-          <video
-            autoPlay
-            muted
-            loop
-            src={ben7}
-            style={{
-              width: "200px",
-              height: "200px",
-            }}
-            alt='ben graupner'
-          />
-        </div>
-        <div>
-          <img
-            src={ben8}
-            style={{
-              width: "200px",
-              height: "200px",
-            }}
-            alt='ben graupner'
-          />
-        </div>
-      </div>
-      <h4 className='text-danger all-center'>
-        Ben Graupner is the owner of TaxDebtGroup.com . Ben Graupner and
-        disbarred attorney Terry Selb
-        <br />
-        <h2 className='all-center'>
-          CLICK BELOW FOR MORE INFO
-          <a
-            style={{ textDecoration: "underline", color: "blue" }}
-            href='https://www.bbb.org/us/ca/los-angeles/profile/tax-enrolled-agent/tax-debt-group-1216-1082638'>
-            TAX DEBT GROUP BBB
-          </a>
-          <a
-            style={{ textDecoration: "underline", color: "blue" }}
-            href='http://lprb.mncourts.gov/LawyerSearch/casedocs/Selb-C9-86-303-10271986.pdf'>
-            SEE DISBARMENT HERE{" "}
-          </a>{" "}
-          <a
-            style={{ textDecoration: "underline", color: "blue" }}
-            href='http://www.terryselb.com'>
-            TERRY SELB DISBARRED ATTORNEY
-          </a>{" "}
-        </h2>
-        <br />
-        worked together for multiple years at a Tax Resolution company before
-        leaving to start their own companies. Current and former employees of
-        Terry Selb have attested to the fact that <br /> Ben Graupner is again
-        working with Terry Selb. <br />
-        As shown above, Terry selb's company has been at the center of a massive
-        scam targeting innocent consumers with threatening letters that appear
-        to be from the government. If Ben Graupner is in fact working with Terry
-        Selb, any of his customers are likely in grave danger of becoming
-        victims themselves. Terry Selb famously stole inheritance from orphaned
-        children, his greed and callousness know no bounds.
-      </h4>
-      <h3 className='text-danger all-center'>
-        AMERICAN TAX SOLUTIONS USES A MENTAL INVALID WHO HE CONTROLS THROUGH A
-        COURT APPOINTED DURABLE POWER OF ATTORNEY AS THE CEO OF HIS FRAUDULENT
-        CORPORATION AMERICAN TAX SOLUTIONS INC. HE ALSO SENDS DECEPTIVE LETTERS
-        THAT ARE MEANT TO IMPERSONATE THE GOVERNMENT.
-      </h3>
-      <img
-        src={terrychris}
-        style={{
-          width: "100vw",
-          height: "75vh",
-        }}
-        alt='american tax solutions'
-      />
-      <img
-        alt='american tax solutions'
-        src={hero}
-        style={{
-          width: "100vw",
-          height: "75vh",
-          position: "absolute",
-          top: "10",
-          zIndex: "-1",
-        }}
-      />
-      <div className='container'>
-        <h5 className='lead text-danger'>
-          Terry Selb owns and operates American Tax Solutions under the name
-          Chris Baker (who is a mental invalid). American Tax Solutions has
-          defrauded hundreds of people with deceptive advertising and illicit
-          money management.
-        </h5>
-        <br />
-        <br />
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <p className='lead text-danger'>
-          "I don’t know but profits have been so good that Terry now has a
-          Maybach and a driver." <br /> Chris Baker
-        </p>
-      </div>
-
-      <div>
-        <p className='text-danger lead'>
-          This is the worst of the letters sent by American Tax Solutions
-        </p>
-        <div className='grid-2'>
-          <div>
-            <h5>Terry Selb American Tax Solutions</h5>
-            <img src={criminal} alt='Terry Selb American Tax Solutions' />
-          </div>
-          <div>
-            <h5>Terry Selb American Tax Solutions</h5>
-            <img src={img} alt='Terry Selb American Tax Solutions' />
-          </div>
-
-          <div>
-            <h5>Terry Selb American Tax Solutions</h5>
-            <img src={img6} alt='Terry Selb American Tax Solutions' />
-          </div>
-          <div>
-            <h5>Terry Selb American Tax Solutions</h5>
-            <img src={img7} alt='Terry Selb American Tax Solutions' />
-          </div>
-          <div>
-            <h5>Terry Selb American Tax Solutions</h5>
-            <img src={img8} alt='Terry Selb American Tax Solutions' />
-          </div>
-          <div>
-            <h5>Terry Selb American Tax Solutions</h5>
-            <img src={img9} alt='Terry Selb American Tax Solutions' />
-          </div>
-          <div>
-            <h5>Terry Selb American Tax Solutions</h5>
-            <img src={img10} alt='Terry Selb American Tax Solutions' />
-          </div>
-        </div>
-      </div>
-
-      <h5 className='text-danger'>
-        Here are is the corporate paperwork, notice the overlap between
-        addresses where in some instances Chris Baker is used as a signatoree
-        and in others with a same address Terry Selb.
-      </h5>
-      <div className='grid-3'>
-        <div>
-          <img src={corp1} alt='Terry Selb American Tax Solutions' />
-        </div>
-        <div>
-          <img src={corp2} alt='Terry Selb American Tax Solutions' />
-        </div>
-        <div>
-          <img src={corp3} alt='Terry Selb American Tax Solutions' />
-        </div>
-      </div>
-      <div>
-        <h5>
-          Reading through the requests here. Chris Baker is clearly recieving
-          small daily sums for basic necessities from Terry Selb and is clearly
-          not of sound enough mind to or economically stable enough to run a
-          company when you read the manner in which requests are made to Mr.
-          Selb.
-        </h5>
-        <CarouselProvider
-          naturalSlideWidth={100}
-          naturalSlideHeight={125}
-          totalSlides={13}>
-          <ButtonBack>Back</ButtonBack>
-          <ButtonNext>Next</ButtonNext>
-          <Slider>
-            <Slide index={0}>
-              <img src={venmo0} alt='Terry Selb American Tax Solutions' />
-            </Slide>
-            <Slide index={1}>
-              <img src={venmo1} alt='Terry Selb American Tax Solutions' />
-            </Slide>
-            <Slide index={2}>
-              <img src={venmo2} alt='Terry Selb American Tax Solutions' />
-            </Slide>
-            <Slide index={3}>
-              <img src={venmo3} alt='' />
-            </Slide>
-            <Slide index={4}>
-              <img src={venmo4} alt='' />
-            </Slide>
-            <Slide index={6}>
-              <img src={venmo5} alt='' />
-            </Slide>
-            <Slide index={5}>
-              <img src={venmo6} alt='' />
-            </Slide>
-            <Slide index={7}>
-              <img src={venmo7} alt='' />
-            </Slide>
-            <Slide index={8}>
-              <img src={venmo8} alt='' />
-            </Slide>
-            <Slide index={9}>
-              <img src={venmo9} alt='' />
-            </Slide>
-          </Slider>
-        </CarouselProvider>
-      </div>
-
-      <div>
-        <h5>
-          Information regarding The State of New York investigating mailers
-          authorized by Geoff Plourde a registered legal practitioner in New
-          York working for American Tax Solutions.
-        </h5>
-
-        <CarouselProvider
-          naturalSlideWidth={100}
-          naturalSlideHeight={125}
-          totalSlides={13}>
-          <ButtonBack>Back</ButtonBack>
-          <ButtonNext>Next</ButtonNext>
-          <Slider>
-            <Slide index={0}>
-              <img src={geoff1} alt='' />
-            </Slide>
-            <Slide index={1}>
-              <img src={geoff2} alt='' />
-            </Slide>
-            <Slide index={2}>
-              <img src={geoff3} alt='' />
-            </Slide>
-            <Slide index={3}>
-              <img src={ny1} alt='' />
-            </Slide>
-            <Slide index={4}>
-              <img src={ny2} alt='' />
-            </Slide>
-            <Slide index={6}>
-              <img src={ny3} alt='' />
-            </Slide>
-            <Slide index={5}>
-              <img src={ny4} alt='' />
-            </Slide>
-          </Slider>
-        </CarouselProvider>
-      </div>
-
-      <div className='my-3'>
-        <h5>This is full text versions of the some of the mailers</h5>
-        <CarouselProvider
-          naturalSlideWidth={100}
-          naturalSlideHeight={125}
-          totalSlides={13}>
-          <ButtonBack>Back</ButtonBack>
-          <ButtonNext>Next</ButtonNext>
-          <Slider>
-            <Slide index={0}>
-              <div className='card'>
-                <h5>
-                  Bureau of Tax Enforcement <br />
-                  Internal Processing Service <br />
-                  For New Castle County <br />
-                  Public Judgement Records
-                </h5>
-
-                <p>
-                  [Name] YOUR PROPERTY WILL BE SEIZED <br />
-                  Final Demand for Payment <br /> for Nonpayment of Taxes to The
-                  State of Delaware The State of Delaware has attempted to
-                  collect the overdue above debt <br /> which has not been paid.
-                  You must call [Number] by 4/29/2019 <br />
-                  The State of Delaware will seize this property for nonpayment
-                  of taxes, penalty and interest due to the State.
-                  <br /> During this seizure it will be against the law to
-                  enter, dismantle, take possession of or remove anything from
-                  your property. The State of Delaware will impose to
-                  garnishment on all bank accounts and income in the of [Name]{" "}
-                  <br />
-                  Note to avoid enforcement call [number] by 4/29/2019
-                  <br /> or further action will be taken against you.
-                </p>
-              </div>
-            </Slide>
-            <Slide index={1}>
-              <div className='card'>
-                <h5>
-                  Tax Enforcement Department <br />
-                  Internal Processing Service <br />
-                  For Sullivan County <br />
-                  Public Judgement Records <br />
-                </h5>
-
-                <p>
-                  The Internal Revenue Service has attempted to obtain
-                  delinquent tax payments. You have not responded to the prior
-                  notice(s) issued to address in your name. You must respond by
-                  the due date and you must PAY IN FULL OR CALL [Number] What
-                  Will Happen: We are writing to inform you that if no direct
-                  action is taken by you the Internal Revenue Service may be
-                  forced to collect [amount] in overdue taxes by taking , which
-                  is called levying property and selling them. The need to levy
-                  property will not cease until action is taken to pay the debt
-                  owed, your United States passworked will be revoked along with
-                  your driver’s license. What You Must Do: To avoid enforced
-                  collection by levy, call [number] by 3/4/2019 or further
-                  actions will be taken in exacting the value by levying.
-                  Failure to respond to official notice is the same as
-                  non-compliance. If you have any questions regarding this
-                  letter, please do not hesitate to contact us at the telephone
-                  number listed above.
-                </p>
-              </div>
-            </Slide>
-
-            <Slide index={2}>
-              <div className='card'>
-                <h5>Notice of Warranted Lien</h5>
-
-                <p>
-                  This notice has been issued against the above named debtors
-                  because of the tax debt that has not been paid. This is not a
-                  warrant. This notice serves the same function as a public
-                  notification. The Taxing Authority has placed a lien in your
-                  name and may take collection action, such as garnishment of
-                  wages, bank accounts, property seizures, federal tax refund
-                  offset, and creation of a line. To avoid enforcement call
-                  [number] Note Interest may continue to accrue until the
-                  balance is paid in full by due date. This notice acts as a
-                  notification against the debtors. A lien has been filed on any
-                  property now owned or acquired in the future until the debt is
-                  paid in full. This notice has been sent to [name] due to the
-                  taxes owened to the Authority and levying procedures may begin
-                  within 15 days of its receipt. You are to respond by due date
-                  and pay in full or call [number] to avoid action.
-                </p>
-              </div>
-            </Slide>
-            <br />
-
-            <Slide index={3}>
-              <div className='card'>
-                <h5>
-                  Benefits suspension unit Madison County Public Judgement
-                  Records
-                </h5>
-
-                <p>
-                  Notice of Intent to Levy Social Security Benefits <br />
-                  Amount Due : 10000 Due by : 02/29/2020 Dear Name This notice
-                  has been issued against the debtor name because of a lien
-                  filing duie to the tax liability that has not been paid. This
-                  letter serves as a final judgement notice. The state of
-                  Montana can now take enforcement action such as seizing social
-                  security benefits and garnishing wages and bank accounts to
-                  satisfy the outstanding debt owed. IF no action is taken by
-                  [date] the State of Montana may permanently revoke benefits,
-                  spuspend license and levy and federal tax refund gained this
-                  year. Your debt must be resolved in full to remove the lien.
-                  To avoid enforcement, Call Number within 15 days of receiving
-                  this notice. Failure to respond in time will cause an
-                  additional penalty to accumulate and lead to default
-                  judgement.
-                </p>
-              </div>
-            </Slide>
-          </Slider>
-        </CarouselProvider>
-      </div>
-      <div className='grid-2' style={{ maxHeight: "50%" }}>
-        <h3>AMERICAN TAX SOLUTIONS HEADLINES</h3>
-        {news.map((newa) => (
-          <NewsItem key={newa.URL} newa={newa} />
-        ))}
-      </div>
-    </div>
+    
   );
 };
 
