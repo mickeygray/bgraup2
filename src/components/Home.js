@@ -13,7 +13,7 @@ const Home = () => {
     <div>
 
 
-<div className='grid-2'>
+<div className='grid-2 container'>
 
 
       <div className='container' style={{marginTop:'20rem', marginLeft:'10rem'}} > 
