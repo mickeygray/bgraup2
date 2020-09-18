@@ -1,5 +1,11 @@
 import React, { useState, useCallback } from "react";
 
+import andruw1 from "../images/andruw1.jpg";
+
+import steve1 from "../images/steve1.JPG";
+import steve3 from "../images/steve3.JPG";
+import steve2 from "../images/steve2.JPG";
+
 const Home = () => {
  
 
@@ -25,7 +31,7 @@ const Home = () => {
           href='https://twitter.com/fraudwatchza/status/972779128708587520'
           target='_blank'
           rel='noopener noreferrer'
-          onClick={() => setModal(true)}>
+      >
           READ MORE
         </a>
 
