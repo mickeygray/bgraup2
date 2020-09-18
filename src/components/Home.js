@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div>
 
-<h3 className ='all-center text-danger'>Warning: Tax Debt Group Is A Scam </h3>
+<h1 className ='all-center text-danger'>Warning: Tax Debt Group Is A Scam </h1>
 <div className='grid-2 container'>
 
 
