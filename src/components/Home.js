@@ -19,22 +19,26 @@ const Home = () => {
   return (
     <div>
 
-
+<h3 className ='all-center text-danger'>Warning: Tax Debt Group Is A Scam </h3>
 <div className='grid-2 container'>
 
 
-      <div className='container' style={{marginTop:'15rem', marginLeft:'7.5rem'}} > 
+      <div className='container' style={{marginTop:'7.5rem', marginLeft:'7.5rem'}} > 
      
-      <h2 style={{ color: "blue" }}>ANDREW STEVEN RAPPORT AKA</h2>{" "}
-      
+  
+      <br/>
+   
+        
+      <i className='lead'>"Thank you for visiting my site.  My name is Ian Smith and I live in South Africa. I have made this site in hopes to warn people about a fugitive who ripped me off for nearly a million US dollars and appears to be doing it again now that he is back in the US.  His name is Andrew Rapport although he has many alias's. In the past he has used Andruw Stephens, Drew Rapport and now operates as "Director" for Tax Debt Group under the alias Drew Ropport." </i>
+      <br/>
+      <b className='all-center'>- Ian Smith</b>
+      </div>
+<div className='all-center' style={{marginTop:'7.5rem'}}>
+<h2 style={{ color: "blue" }}>ANDREW STEVEN RAPPORT</h2>{" "}
+<h2 style={{ color: "blue" }}>AKA</h2>
       <h2 style={{ color: "blue" }}>DREW ROPPORT </h2> 
       <h2 style={{ color: "blue" }}>AKA</h2>
       <h2 style={{ color: "blue" }}>ANDRUW STEPHENS</h2>{" "}
-   
-        
-      Thank you for visiting my site.  My name is Ian Smith and I live in South Africa. I have made this site in hopes to warn people about a fugitive who ripped me off for nearly a million US dollars and appears to be doing it again now that he is back in the US.  His name is Andrew Rapport although he has many alias's. In the past he has used Andruw Stephens, Drew Rapport and now operates as "Director" for Tax Debt Group under the alias Drew Ropport.
-      </div>
-<div className='all-center' style={{marginTop:'15rem'}}>
 
         <img src={andruw1} style={{ height: "400px", width: "300px" }} alt='' /> <br/>
         YOU CAN FIND INFORMATION ABOUT HIM HERE{" "}
@@ -46,7 +50,7 @@ const Home = () => {
       >
           READ MORE
         </a>
-        <button className ='btn btn-dark' onClick={onClick}> Submit a complaint </button>
+        <button className ='btn btn-dark' onClick={onClick}> Submit  </button>
 
         </div>
 
