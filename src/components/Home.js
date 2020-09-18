@@ -50,7 +50,19 @@ const Home = () => {
       >
           READ MORE
         </a>
-        <button className ='btn btn-dark' onClick={onClick}> Submit  </button>
+
+        <div className ='grid-2'>
+
+          <div>
+          <i>Please I need help catching this criminal.  Anything you know will be reported to the authorities. Thank you</i>
+          </div>
+
+          <div>
+          <button className ='btn btn-dark' onClick={onClick}> Submit Information</button>
+          </div>
+        </div>
+
+  
 
         </div>
 
