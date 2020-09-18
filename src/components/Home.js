@@ -16,13 +16,13 @@ const Home = () => {
 <div className='grid-2 container'>
 
 
-      <div className='container' style={{marginTop:'20rem', marginLeft:'10rem'}} > 
-      <h1 style={{ color: "blue" }}>ANDRUW STEPHENS AKA</h1>{" "}
+      <div className='container' style={{marginTop:'15rem', marginLeft:'10rem'}} > 
+      <h2 style={{ color: "blue" }}>ANDRUW STEPHENS AKA</h2>{" "}
         <h2 style={{ color: "blue" }}>ANDREW STEVEN RAPPORT AKA</h2>{" "}
         <h2 style={{ color: "blue" }}>DREW ROPPORT</h2> 
       Thank you for visiting my site.  My name is Ian Smith and I live in South Africa. I have made this site in hopes to warn people about a fugitive who ripped me off for nearly a million US dollars and appears to be doing it again now that he is back in the US.  His name is Andrew Rapport although he has many alias's. In the past he has used Andruw Stephens, Drew Rapport and now operates as "Director" for Tax Debt Group under the alias Drew Ropport.
       </div>
-<div className='all-center'>
+<div className='all-center' style={{marginTop:'15rem'}}>
 
         <img src={andruw1} style={{ height: "400px", width: "300px" }} alt='' /> <br/>
         YOU CAN FIND INFORMATION ABOUT HIM HERE{" "}
