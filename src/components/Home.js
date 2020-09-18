@@ -57,7 +57,7 @@ const Home = () => {
           <i>Please I need help catching this criminal.  Anything you know will be reported to the authorities. Thank you</i>
           </div>
 
-          <div>
+          <div className='py-1'>
           <button className ='btn btn-dark' onClick={onClick}> Submit Information</button>
           </div>
         </div>
