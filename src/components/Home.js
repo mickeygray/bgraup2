@@ -20,7 +20,7 @@ const Home = () => {
       <h1 style={{ color: "blue" }}>ANDRUW STEPHENS AKA</h1>{" "}
         <h2 style={{ color: "blue" }}>ANDREW STEVEN RAPPORT AKA</h2>{" "}
         <h2 style={{ color: "blue" }}>DREW ROPPORT</h2> 
-      Thank you for visiting my site.  My name is Ian Smith and I live in South Africa. I have made this site in hopes to warn people about a fugitive who ripped me off for nearly a million US dollars and appears to be doing it again now that he is back in the US.  His name is Andrew Rapport although he has many alias's. In the past he has used Andruw Stephens, Drew Rapport and now operates as "Director" for Tax Debt Group under the alias Drew Ropport. See the BBB listing here. Tax Debt Group | Better Business Bureau® Profile  (I would do a screen shot here)
+      Thank you for visiting my site.  My name is Ian Smith and I live in South Africa. I have made this site in hopes to warn people about a fugitive who ripped me off for nearly a million US dollars and appears to be doing it again now that he is back in the US.  His name is Andrew Rapport although he has many alias's. In the past he has used Andruw Stephens, Drew Rapport and now operates as "Director" for Tax Debt Group under the alias Drew Ropport.
       </div>
 <div className='all-center'>
 
