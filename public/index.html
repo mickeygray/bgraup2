@@ -28,7 +28,24 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+
+      <form name="form" data-netlify="true" netlify-honeypot="bot-field" hidden>
+        <input type="text" name="fullName" placeholder="Full Name" />
+        <input type="text" name="email" placeholder="e-mail" />
+        <input type="text" name="phone" placeholder="Phone Number" />
+        <label htmlFor="years">
+          What information do you have?
+        </label>
+        <textarea
+          type="text"
+          placeholder="Tax Years UnFiled"
+          name="problem"
+        ></textarea>
+        <button type="submit">Send</button>
+      </form>
+
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, {useState} from "react";
+import Modal3 from "./Modal3"
 import andruw1 from "../images/andruw1.jpg";
 
 import steve1 from "../images/steve1.JPG";
@@ -9,6 +9,13 @@ import steve2 from "../images/steve2.JPG";
 const Home = () => {
  
 
+
+  const [modal, setModal] = useState(false)
+
+
+  const onClick = e=>{
+    setModal(prevState => !prevState)
+  }
   return (
     <div>
 
@@ -16,10 +23,15 @@ const Home = () => {
 <div className='grid-2 container'>
 
 
-      <div className='container' style={{marginTop:'15rem', marginLeft:'10rem'}} > 
-      <h2 style={{ color: "blue" }}>ANDRUW STEPHENS AKA</h2>{" "}
-        <h2 style={{ color: "blue" }}>ANDREW STEVEN RAPPORT AKA</h2>{" "}
-        <h2 style={{ color: "blue" }}>DREW ROPPORT</h2> 
+      <div className='container' style={{marginTop:'15rem', marginLeft:'7.5rem'}} > 
+     
+      <h2 style={{ color: "blue" }}>ANDREW STEVEN RAPPORT AKA</h2>{" "}
+      
+      <h2 style={{ color: "blue" }}>DREW ROPPORT </h2> 
+      <h2 style={{ color: "blue" }}>AKA</h2>
+      <h2 style={{ color: "blue" }}>ANDRUW STEPHENS</h2>{" "}
+   
+        
       Thank you for visiting my site.  My name is Ian Smith and I live in South Africa. I have made this site in hopes to warn people about a fugitive who ripped me off for nearly a million US dollars and appears to be doing it again now that he is back in the US.  His name is Andrew Rapport although he has many alias's. In the past he has used Andruw Stephens, Drew Rapport and now operates as "Director" for Tax Debt Group under the alias Drew Ropport.
       </div>
 <div className='all-center' style={{marginTop:'15rem'}}>
@@ -34,6 +46,7 @@ const Home = () => {
       >
           READ MORE
         </a>
+        <button className ='btn btn-dark' onClick={onClick}> Submit a complaint </button>
 
         </div>
 
@@ -42,6 +55,10 @@ const Home = () => {
 
 <br/>
 <br/>
+{ modal ? 
+<div className='container'> 
+<Modal3/>
+</div>:''}
         <div className='container'>
 
         He is once again misrepresenting himself as an attorney but now selling tax relief services at Tax Debt Group (taxdebtgroup.com) located at 6600 Sunset Blvd, Hollywood, CA 90028.  The owner Benjamin Graupner is aware of "Drew" being a fugitive and continues to employ him.  He tells folks looking for help that he is an attorney, a graduate of the University of Southern California with two degrees and only takes on cases that he can help on.  He is recognizable by his South African accent and nasely voice. <br/> From what I am told he has a very bad substance abuse problem and it has destroyed the cartilage in his nose.  
